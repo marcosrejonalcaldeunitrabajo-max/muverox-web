@@ -1,0 +1,81 @@
+.seccion {
+    padding: 120px 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .tituloSeccion {
+    font-family: Georgia, serif;
+    font-size: clamp(32px, 5vw, 56px);
+    text-align: center;
+    margin-bottom: 16px;
+    color: var(--crema);
+  }
+  
+  .subtituloSeccion {
+    text-align: center;
+    color: var(--crema-suave);
+    font-size: 17px;
+    max-width: 600px;
+    margin: 0 auto 64px auto;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 32px;
+  }
+  
+  .tarjeta {
+    background: var(--fondo-2);
+    border: 1px solid var(--borde);
+    border-radius: 16px;
+    padding: 40px;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .tarjeta:hover {
+    border-color: var(--dorado);
+    transform: translateY(-4px);
+  }
+  
+  .iconoTarjeta {
+    width: 40px;
+    height: 40px;
+    color: var(--dorado);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tituloTarjeta {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    color: var(--dorado);
+    margin-bottom: 12px;
+  }
+  
+  .descTarjeta {
+    color: var(--crema-suave);
+    font-size: 15px;
+    margin-bottom: 28px;
+    line-height: 1.6;
+  }
+  
+  .listaPuntos {
+    list-style: none;
+  }
+  
+  .punto {
+    color: var(--crema);
+    font-size: 14px;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .checkDorado {
+    color: var(--dorado);
+    font-weight: bold;
+  }
