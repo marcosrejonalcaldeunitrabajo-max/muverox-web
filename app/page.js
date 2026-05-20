@@ -115,7 +115,7 @@ export default function Home() {
             <h3 className={precStyles.nombrePaquete}>Web Pro</h3>
             <div className={precStyles.precio}>Desde 900€</div>
             <div className={precStyles.desde}>Hasta 7 páginas · pago único</div>
-            <div className={precStyles.mantenimiento}>+ 100€/mes mantenimiento</div>
+            <div className={precStyles.mantenimiento}>+ 200€/mes mantenimiento</div>
             <ul className={precStyles.listaIncluido}>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> Hasta 7 páginas</li>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> Diseño premium a medida</li>
@@ -132,7 +132,7 @@ export default function Home() {
             <h3 className={precStyles.nombrePaquete}>Premium</h3>
             <div className={precStyles.precio}>Desde 1.500€</div>
             <div className={precStyles.desde}>Web + automatización · pago único</div>
-            <div className={precStyles.mantenimiento}>+ 100€/mes mantenimiento</div>
+            <div className={precStyles.mantenimiento}>+ 400€/mes mantenimiento</div>
             <ul className={precStyles.listaIncluido}>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> Todo lo de Web Pro</li>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> Chatbot 24/7 con IA</li>
