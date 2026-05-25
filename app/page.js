@@ -34,7 +34,7 @@ export default function Home() {
           Para pymes que quieren crecer en internet.
         </p>
         <div className={styles.botones}>
-          <button className={styles.btnPrimario}>Pedir presupuesto gratis</button>
+          <button className={styles.btnPrimario}>Hablemos de tu proyecto</button>
           <button className={styles.btnSecundario}>Ver servicios</button>
         </div>
         <div className={styles.stats}>
@@ -150,8 +150,8 @@ export default function Home() {
         <p className={sobreStyles.descripcion}>
           Somos una agencia digital con un enfoque distinto: trabajamos como un equipo
           cercano, no como una multinacional. Combinamos tecnología moderna con un trato
-          humano y presupuestos cerrados desde el primer día. Cuando trabajas con nosotros,
-          sabes con quién hablas y qué vas a pagar.
+          humano y un proceso claro desde el primer día. Cuando trabajas con nosotros,
+          sabes con quién hablas en todo momento.
         </p>
         <div className={sobreStyles.valores}>
           <div className={sobreStyles.valor}>
@@ -167,9 +167,9 @@ export default function Home() {
             </p>
           </div>
           <div className={sobreStyles.valor}>
-            <div className={sobreStyles.tituloValor}>Presupuesto cerrado</div>
+            <div className={sobreStyles.tituloValor}>Proceso claro</div>
             <p className={sobreStyles.descValor}>
-              Te decimos el precio antes de empezar. Sin sorpresas a final de mes.
+              Sabes qué va a pasar en cada fase del proyecto. Sin sorpresas, sin letra pequeña.
             </p>
           </div>
         </div>
