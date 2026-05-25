@@ -18,7 +18,7 @@ export default function Home() {
         <ul className={navStyles.enlaces}>
           <li><a href="#servicios" className={navStyles.enlace}>Servicios</a></li>
           <li><a href="#proceso" className={navStyles.enlace}>Proceso</a></li>
-          <li><a href="#precios" className={navStyles.enlace}>Precios</a></li>
+          <li><a href="#precios" className={navStyles.enlace}>Planes</a></li>
           <li><a href="#contacto" className={navStyles.enlace}>Contacto</a></li>
         </ul>
         <a href="#contacto" className={navStyles.btnNav}>Habla con nosotros</a>
@@ -91,15 +91,13 @@ export default function Home() {
       </section>
 
       <section id="precios" className={precStyles.seccion}>
-        <h2 className={precStyles.tituloSeccion}>Precios claros</h2>
-        <p className={precStyles.subtituloSeccion}>Presupuesto cerrado. Sin sorpresas. Lo que ves es lo que pagas.</p>
+        <h2 className={precStyles.tituloSeccion}>Nuestros planes</h2>
+        <p className={precStyles.subtituloSeccion}>Cada proyecto es único. Cuéntanos el tuyo y te preparamos un presupuesto cerrado, sin sorpresas.</p>
         <div className={precStyles.grid}>
 
           <div className={precStyles.paquete}>
             <h3 className={precStyles.nombrePaquete}>Landing</h3>
-            <div className={precStyles.precio}>Desde 500€</div>
-            <div className={precStyles.desde}>1 página · pago único</div>
-            <div className={precStyles.mantenimiento}>+ 100€/mes mantenimiento</div>
+            <div className={precStyles.desde}>1 página · ideal para empezar</div>
             <ul className={precStyles.listaIncluido}>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> 1 página optimizada</li>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> Diseño a medida</li>
@@ -107,15 +105,13 @@ export default function Home() {
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> Responsive (móvil)</li>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> 1 año de soporte</li>
             </ul>
-            <a href="#contacto" className={precStyles.btnPaquete}>Pedir presupuesto</a>
+            <a href="#contacto" className={precStyles.btnPaquete}>Hablemos de tu proyecto</a>
           </div>
 
           <div className={`${precStyles.paquete} ${precStyles.destacado}`}>
             <span className={precStyles.badgePopular}>Más popular</span>
             <h3 className={precStyles.nombrePaquete}>Web Pro</h3>
-            <div className={precStyles.precio}>Desde 900€</div>
-            <div className={precStyles.desde}>Hasta 7 páginas · pago único</div>
-            <div className={precStyles.mantenimiento}>+ 200€/mes mantenimiento</div>
+            <div className={precStyles.desde}>Hasta 7 páginas · para negocios en crecimiento</div>
             <ul className={precStyles.listaIncluido}>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> Hasta 7 páginas</li>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> Diseño premium a medida</li>
@@ -125,14 +121,12 @@ export default function Home() {
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> Google Analytics</li>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> 1 año de soporte</li>
             </ul>
-            <a href="#contacto" className={precStyles.btnPaquete}>Pedir presupuesto</a>
+            <a href="#contacto" className={precStyles.btnPaquete}>Hablemos de tu proyecto</a>
           </div>
 
           <div className={precStyles.paquete}>
             <h3 className={precStyles.nombrePaquete}>Premium</h3>
-            <div className={precStyles.precio}>Desde 1.500€</div>
-            <div className={precStyles.desde}>Web + automatización · pago único</div>
-            <div className={precStyles.mantenimiento}>+ 400€/mes mantenimiento</div>
+            <div className={precStyles.desde}>Web + automatización · la solución completa</div>
             <ul className={precStyles.listaIncluido}>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> Todo lo de Web Pro</li>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> Chatbot 24/7 con IA</li>
@@ -142,18 +136,9 @@ export default function Home() {
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> CRM básico para clientes</li>
               <li className={precStyles.itemIncluido}><span style={{ color: "#D4AF37" }}>✓</span> 1 año de soporte</li>
             </ul>
-            <a href="#contacto" className={precStyles.btnPaquete}>Pedir presupuesto</a>
+            <a href="#contacto" className={precStyles.btnPaquete}>Hablemos de tu proyecto</a>
           </div>
 
-        </div>
-        <div className={precStyles.notaMantenimiento}>
-          <div className={precStyles.tituloMantenimiento}>El mantenimiento mensual incluye:</div>
-          <ul className={precStyles.listaMantenimiento}>
-            <li>✓ Hosting y dominio</li>
-            <li>✓ Actualizaciones de seguridad</li>
-            <li>✓ Cambios menores (textos, imágenes)</li>
-            <li>✓ Soporte por email/WhatsApp</li>
-          </ul>
         </div>
       </section>
 
@@ -225,7 +210,7 @@ export default function Home() {
           <ul className={footerStyles.enlaces}>
             <li><a href="#servicios">Servicios</a></li>
             <li><a href="#proceso">Proceso</a></li>
-            <li><a href="#precios">Precios</a></li>
+            <li><a href="#precios">Planes</a></li>
             <li><a href="#contacto">Contacto</a></li>
           </ul>
         </div>
